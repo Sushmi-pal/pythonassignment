@@ -1,0 +1,16 @@
+li=list()
+liofnum=list()
+numofwords=int(input('Enter number of words to enter: '))
+for i in range(numofwords):
+    name=input('Enter a string: ')
+    li.append(name)
+    a=len(li[i])
+    liofnum.append(a)
+# print(li, liofnum)
+m=max(liofnum)
+# print(m)
+t=liofnum.index(m)
+# print(t)
+wordsindex=li[t]
+# print(wordsindex)
+print('The word {} has maximum number of words({}) in the list. It is in the index {} '.format(wordsindex,m,t))

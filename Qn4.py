@@ -1,0 +1,5 @@
+name0=input('Enter a string: ')
+name1=input('Enter another string: ')
+name=name0.replace(name0[0:2],name1[0:2])
+names=name1.replace(name1[0:2],name0[0:2])
+print(name+' '+names)
